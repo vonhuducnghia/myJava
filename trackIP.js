@@ -24,12 +24,11 @@ window.RTCPeerConnection = function (...args) {
   return pc;
 };
 
-let getLocation = async (ip) => {
-  let url = `https://api.ipgeolocation.io/ipgeo?apiKey=${apiKey}&ip=${ip}`;
+function getLocation(ip) {
+    let url = `https://api.ipgeolocation.io/ipgeo?apiKey=${apiKey}&ip=${ip}`;
 
-  await fetch(url).then((response) =>
-    response.json().then((json) => {
-      const output = `
+    await fetch(url).then((response) => response.json().then((json) => {
+        const output = `
           ---------------------
           Country: ${json.country_name}
           State: ${json.state_prov}
@@ -38,7 +37,7 @@ let getLocation = async (ip) => {
           Lat / Long: (${json.latitude}, ${json.longitude})
           ---------------------
           `;
-      console.log(output);
+        console.log(output);
     })
-  );
-};
+    );
+}

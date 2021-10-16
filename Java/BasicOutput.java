@@ -1,12 +1,13 @@
 public class BasicOutput
-{ 
+{
+    static int i = 21;
+    static char ch = 'I';
+    static double d = 2.1;
+    static boolean b = true;
+    static String s = "Irene Adler";
     public static void main(String args[])
     {
-        int i = 21;
-        char ch = 'I';
-        double d = 2.1;
-        boolean b = true;
-        String s = "Irene Adler";
+        
         System.out.println(i);
         System.out.println(ch);
         System.out.println(d);

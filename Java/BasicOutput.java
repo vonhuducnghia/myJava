@@ -40,7 +40,7 @@
     }
 }*/
 
-public class BasicOutput
+/*public class BasicOutput
 {
     public static void main(String[] args)
     {
@@ -53,5 +53,19 @@ public class BasicOutput
         System.out.println("d and i " + d + " " + i);
         System.out.println("\nConversion of double to byte."); b = (byte) d;
         System.out.println("d and b " + d + " " + b);
+    }
+}*/
+
+import java.util.Scanner;
+public class BasicOutput
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine(); System.out.println("You entered string " + s);
+        int i = sc.nextInt(); System.out.println("You entered integer " + i);
+        float f = sc.nextFloat();
+        System.out.println("You entered float " + f);
+        sc.close();
     }
 }

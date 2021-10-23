@@ -17,7 +17,7 @@
     }
 }*/
 
-public class BasicOutput
+/*public class BasicOutput
 {
     public static void main(String args[])
     {
@@ -30,5 +30,12 @@ public class BasicOutput
         System.out.println(num1 + num2);
 
         System.out.println(num1 + "+" + num2 + "= " + num1 + num2);
+    }
+}*/
+public class BasicOutput
+{
+    public static void main(String args[])
+    {
+        System.out.println("\"Hello the World!\""); // Using Escape Sequence
     }
 }

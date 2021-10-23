@@ -56,7 +56,7 @@
     }
 }*/
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class BasicOutput
 {
     public static void main(String[] args)
@@ -66,6 +66,76 @@ public class BasicOutput
         int i = sc.nextInt(); System.out.println("You entered integer " + i);
         float f = sc.nextFloat();
         System.out.println("You entered float " + f);
+        sc.close();
+    }
+}*/
+
+// Exer 3, 6, 7, 8
+
+/*import java.util.Scanner;
+public class BasicOutput
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Cel degree:");
+        double cel = sc.nextDouble();
+        System.out.println("You entered cel degree: " + cel);
+        double ctof = 9.0/5 * (cel + 32);
+        System.out.print("Here is the conversion from C to F: " + ctof);
+
+        double fah = sc.nextDouble();
+        System.out.println("You entered fah degree: " + fah);
+        double ftoc = 5.0/9 * (fah - 32);
+        System.out.print("Here is the conversion from F to C: " + ftoc);
+        sc.close();
+    }
+}*/
+
+/*import java.util.Scanner;
+public class BasicOutput
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter diameter:");
+        double dia = sc.nextDouble();
+        System.out.println("You entered diameter: " + dia);
+        double rad = dia/2;
+        double square = Math.PI * Math.pow(rad, 2);
+        System.out.print("The square of circle is: " + square);
+        sc.close();
+    }
+}*/
+
+/*import java.util.Scanner;
+public class BasicOutput
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input 3 edges size of a triangle: ");
+        int edge1 = sc.nextInt();
+        int edge2 = sc.nextInt();
+        int edge3 = sc.nextInt();
+        System.out.println("You entered 3 edges: " + edge1 + edge2 + edge3);
+        System.out.println(edge1 == edge2 && edge2 == edge3 ? "Equilateral triangle" : "Isosceles triangle");
+        sc.close();
+    }
+}*/
+
+import java.util.Scanner;
+public class BasicOutput
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input 2 edges size of a triangle: ");
+        double edge1 = sc.nextDouble();
+        double edge2 = sc.nextDouble();
+        System.out.println("You entered 2 edges: " + edge1 + edge2);
+        double hypot = Math.hypot(edge1, edge2);
+        System.out.println(" The hypo is: " + hypot);
         sc.close();
     }
 }

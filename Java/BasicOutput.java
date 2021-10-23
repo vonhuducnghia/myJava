@@ -124,7 +124,7 @@ public class BasicOutput
     }
 }*/
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class BasicOutput
 {
     public static void main(String[] args)
@@ -138,4 +138,4 @@ public class BasicOutput
         System.out.println(" The hypo is: " + hypot);
         sc.close();
     }
-}
+}*/

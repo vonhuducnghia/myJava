@@ -7,7 +7,7 @@ public class FindGCD
         System.out.println("Enter 2 numbers: ");
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        int gcd = 1;
+        int gcd = 0;
         scanner.close();
         for (int i = 1; i <= n && i <= m; i++)
         {

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exercise1
+public class PrintOddAndEvenNumbers
 {
     public static void main (String args[])
     {

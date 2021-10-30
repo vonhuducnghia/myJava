@@ -35,43 +35,43 @@ public class DateToWords
             System.out.print("");
             case 12:
             System.out.print("Dec");
-            case 12:
+            case 13:
             System.out.print("Dec");
-            case 12:
+            case 14:
             System.out.print("Dec");
-            case 12:
+            case 15:
             System.out.print("Dec");
-            case 12:
+            case 16:
             System.out.print("Dec");
-            case 12:
+            case 17:
             System.out.print("Dec");
-            case 12:
+            case 18:
             System.out.print("Dec");
-            case 12:
+            case 19:
             System.out.print("Dec");
-            case 12:
+            case 20:
             System.out.print("Dec");
-            case 12:
+            case 21:
             System.out.print("Dec");
-            case 12:
+            case 22:
             System.out.print("Dec");
-            case 12:
+            case 23:
             System.out.print("Dec");
-            case 12:
+            case 24:
             System.out.print("Dec");
-            case 12:
+            case 25:
             System.out.print("Dec");
-            case 12:
+            case 26:
             System.out.print("Dec");
-            case 12:
+            case 27:
             System.out.print("Dec");
-            case 12:
+            case 28:
             System.out.print("Dec");
-            case 12:
+            case 29:
             System.out.print("Dec");
-            case 12:
+            case 30:
             System.out.print("Dec");
-            case 12:
+            case 31:
             System.out.print("Dec");
         }
         switch (month)

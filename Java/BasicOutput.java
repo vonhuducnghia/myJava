@@ -141,7 +141,7 @@ public class BasicOutput
 }*/
 
 // Quadratic solving algorithm
-import java.util.Scanner;  
+/*import java.util.Scanner;  
 public class BasicOutput
 {
     public static void main(String[] Strings)
@@ -180,4 +180,4 @@ public class BasicOutput
                 }
         }
     }
-}
+}*/

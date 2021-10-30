@@ -7,6 +7,7 @@ class Fibonacci
         System.out.print("Enter the length n (n must greater than 2): ");
         int n = scanner.nextInt();
         scanner.close();
+        // Declare an array to store Fibonacci numbers.
         int Fibonacci[] = new int[n+2];
         Fibonacci[0] = 0;
         Fibonacci[1] = 1;

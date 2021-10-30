@@ -9,6 +9,7 @@ public class PrintOddAndEvenNumbers
     //create a scanner object for input
     System.out.print("Print all even number until:\n");
     int num = scan.nextInt();//Reads input from user and stored in variable num
+    scan.close();
     System.out.print("Even number from i to "+num+" are: \n");
     i=1;
     while (i <= num)

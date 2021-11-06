@@ -7,7 +7,7 @@ public class DateToWords
         System.out.print("Enter day, month and year respectively (only 1 digit for number under 10): ");
         int day = scanner.nextInt();
         int month = scanner.nextInt();
-        int year = scanner.nextInt();
+        //int year = scanner.nextInt();
         scanner.close();
         switch (day)
         {

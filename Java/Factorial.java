@@ -8,7 +8,6 @@ public class Factorial
         int n = scanner.nextInt();
         if (n == 0)
             System.out.println("1");
-        int sum = 0;
         int factorial = n;
         scanner.close();
         if (n >= 1)
@@ -17,8 +16,7 @@ public class Factorial
         {
             factorial = factorial * (n - i);
         }
-        sum = factorial;
-        System.out.println(sum);
+        System.out.println(factorial);
         }
     }
     

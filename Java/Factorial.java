@@ -12,7 +12,7 @@ public class Factorial
         scanner.close();
         if (n >= 1)
         {
-        for (int i = 1; i < n; i++)
+        for (double i = 1; i < n; i++)
         {
             factorial = factorial * (n - i);
         }
